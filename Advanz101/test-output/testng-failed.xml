@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="TestWithFireFox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="mercuryTours.TestCases.RegistrationWithMultipleInput">
+        <methods>
+          <include name="afterTest"/>
+          <include name="RegistrationWithMultipleData"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- mercuryTours.TestCases.RegistrationWithMultipleInput -->
+      <class name="mercuryTours.TestCases.LoginWithMultipleInput">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="NewUserLogin"/>
+        </methods>
+      </class> <!-- mercuryTours.TestCases.LoginWithMultipleInput -->
+      <class name="mercuryTours.TestCases.RegistrationWithSingleData">
+        <methods>
+          <include name="NewUserInfo"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- mercuryTours.TestCases.RegistrationWithSingleData -->
+    </classes>
+  </test> <!-- TestWithFireFox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

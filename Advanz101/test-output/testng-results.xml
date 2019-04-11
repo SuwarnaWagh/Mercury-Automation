@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CompleteMercuryToursTestSuite" duration-ms="195798" started-at="2019-04-11T17:15:24Z" finished-at="2019-04-11T17:18:40Z">
+    <groups>
+    </groups>
+    <test name="TestWithChrome" duration-ms="104900" started-at="2019-04-11T17:15:24Z" finished-at="2019-04-11T17:17:09Z">
+      <class name="mercuryTours.TestCases.RegistrationWithSingleData">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:mercuryTours.TestCases.RegistrationWithSingleData@cc285f4]" name="beforeTest" is-config="true" duration-ms="24549" started-at="2019-04-11T22:45:24Z" finished-at="2019-04-11T22:45:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="NewUserRegistrationAndLoginWithSingleData()[pri:0, instance:mercuryTours.TestCases.RegistrationWithSingleData@cc285f4]" name="NewUserRegistrationAndLoginWithSingleData" duration-ms="27528" started-at="2019-04-11T22:45:49Z" finished-at="2019-04-11T22:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewUserRegistrationAndLoginWithSingleData -->
+      </class> <!-- mercuryTours.TestCases.RegistrationWithSingleData -->
+      <class name="mercuryTours.TestCases.LoginWithMultipleInput">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:mercuryTours.TestCases.LoginWithMultipleInput@c038203]" name="beforeClass" is-config="true" duration-ms="25661" started-at="2019-04-11T22:45:49Z" finished-at="2019-04-11T22:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginWithMultipleInput()[pri:0, instance:mercuryTours.TestCases.LoginWithMultipleInput@c038203]" name="loginWithMultipleInput" duration-ms="43067" started-at="2019-04-11T22:46:14Z" finished-at="2019-04-11T22:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleInput -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mercuryTours.TestCases.LoginWithMultipleInput@c038203]" name="afterTest" is-config="true" duration-ms="237" started-at="2019-04-11T22:47:08Z" finished-at="2019-04-11T22:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mercuryTours.TestCases.RegistrationWithMultipleInput@2a5ca609]" name="afterTest" is-config="true" duration-ms="89" started-at="2019-04-11T22:47:09Z" finished-at="2019-04-11T22:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mercuryTours.TestCases.RegistrationWithSingleData@cc285f4]" name="afterTest" is-config="true" duration-ms="85" started-at="2019-04-11T22:47:09Z" finished-at="2019-04-11T22:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mercuryTours.TestCases.LoginWithMultipleInput -->
+      <class name="mercuryTours.TestCases.RegistrationWithMultipleInput">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:mercuryTours.TestCases.RegistrationWithMultipleInput@2a5ca609]" name="beforeClass" is-config="true" duration-ms="25628" started-at="2019-04-11T22:45:49Z" finished-at="2019-04-11T22:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="RegistrationWithMultipleInput()[pri:0, instance:mercuryTours.TestCases.RegistrationWithMultipleInput@2a5ca609]" name="RegistrationWithMultipleInput" duration-ms="54003" started-at="2019-04-11T22:46:14Z" finished-at="2019-04-11T22:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationWithMultipleInput -->
+      </class> <!-- mercuryTours.TestCases.RegistrationWithMultipleInput -->
+    </test> <!-- TestWithChrome -->
+    <test name="TestWithFireFox" duration-ms="90801" started-at="2019-04-11T17:17:09Z" finished-at="2019-04-11T17:18:40Z">
+      <class name="mercuryTours.TestCases.RegistrationWithSingleData">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:mercuryTours.TestCases.RegistrationWithSingleData@47c62251]" name="beforeTest" is-config="true" duration-ms="27816" started-at="2019-04-11T22:47:09Z" finished-at="2019-04-11T22:47:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="NewUserRegistrationAndLoginWithSingleData()[pri:0, instance:mercuryTours.TestCases.RegistrationWithSingleData@47c62251]" name="NewUserRegistrationAndLoginWithSingleData" duration-ms="11528" started-at="2019-04-11T22:47:37Z" finished-at="2019-04-11T22:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewUserRegistrationAndLoginWithSingleData -->
+      </class> <!-- mercuryTours.TestCases.RegistrationWithSingleData -->
+      <class name="mercuryTours.TestCases.LoginWithMultipleInput">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:mercuryTours.TestCases.LoginWithMultipleInput@6f7fd0e6]" name="beforeClass" is-config="true" duration-ms="15756" started-at="2019-04-11T22:47:37Z" finished-at="2019-04-11T22:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="loginWithMultipleInput()[pri:0, instance:mercuryTours.TestCases.LoginWithMultipleInput@6f7fd0e6]" name="loginWithMultipleInput" duration-ms="32582" started-at="2019-04-11T22:47:53Z" finished-at="2019-04-11T22:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleInput -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mercuryTours.TestCases.LoginWithMultipleInput@6f7fd0e6]" name="afterTest" is-config="true" duration-ms="4544" started-at="2019-04-11T22:48:30Z" finished-at="2019-04-11T22:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mercuryTours.TestCases.RegistrationWithMultipleInput@27efef64]" name="afterTest" is-config="true" duration-ms="3368" started-at="2019-04-11T22:48:34Z" finished-at="2019-04-11T22:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mercuryTours.TestCases.RegistrationWithSingleData@47c62251]" name="afterTest" is-config="true" duration-ms="2126" started-at="2019-04-11T22:48:38Z" finished-at="2019-04-11T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mercuryTours.TestCases.LoginWithMultipleInput -->
+      <class name="mercuryTours.TestCases.RegistrationWithMultipleInput">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:mercuryTours.TestCases.RegistrationWithMultipleInput@27efef64]" name="beforeClass" is-config="true" duration-ms="16196" started-at="2019-04-11T22:47:37Z" finished-at="2019-04-11T22:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="RegistrationWithMultipleInput()[pri:0, instance:mercuryTours.TestCases.RegistrationWithMultipleInput@27efef64]" name="RegistrationWithMultipleInput" duration-ms="36742" started-at="2019-04-11T22:47:53Z" finished-at="2019-04-11T22:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationWithMultipleInput -->
+      </class> <!-- mercuryTours.TestCases.RegistrationWithMultipleInput -->
+    </test> <!-- TestWithFireFox -->
+  </suite> <!-- CompleteMercuryToursTestSuite -->
+</testng-results>

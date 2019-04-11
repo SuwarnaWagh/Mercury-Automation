@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CompleteMercuryToursTestSuite" parallel="true">
+  <test name="TestWithChrome">
+   <parameter name = "browser" value = "chrome"/>
+    <packages>
+      <package name="mercuryTours.TestCases"/>
+    </packages>
+  </test> <!-- Test -->
+  
+   <test name="TestWithFireFox">
+   <parameter name = "browser" value = "firefox"/>
+    <packages>
+      <package name="mercuryTours.TestCases"/>
+    </packages>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
